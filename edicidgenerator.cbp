@@ -35,9 +35,10 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-m32" />
 		</Compiler>
 		<Linker>
-			<Add option="-static -static-libgcc" />
+			<Add option="-m32" />
 		</Linker>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
